@@ -1,0 +1,143 @@
+body {
+  color: #ffffff;
+  font-family: 'roboto', sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+}
+
+/* img робим блочним */
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+a {
+  /* Забераєм декоративні лінії */
+  text-decoration: none;
+  /* Забераєм декоративні лінії */
+  display: inline-block;
+}
+
+/* Забераєм вид маркера та відступи*/
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.container.no-padding {
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+.container {
+  width: 1170px;
+  margin: 0 auto;
+  background: #ffffff;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+/*--------------------------HEADER--------------------------*/
+header {
+  padding: 25px 0 25px 0;
+}
+
+.top-line {
+  display: flex;
+  align-items: center;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+}
+
+.logo {
+  display: inline-block;
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 31px;
+  letter-spacing: 0.03em;
+  color: black;
+  margin-right: 40px;
+}
+
+.logo-color {
+  color: #2196f3;
+}
+
+.menu-nav {
+  display: flex;
+  align-items: center;
+}
+
+.list {
+  display: flex;
+  align-items: center;
+}
+
+.item {
+  margin-left: 50px;
+}
+
+.link a {
+  color: black;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+}
+
+.contacts {
+  margin-left: 250px;
+}
+
+.item:hover,
+.item:focus {
+  color: #2196f3;
+}
+/*--------------------------HEADER--------------------------*/
+/*--------------------------MAIN--------------------------*/
+main {
+}
+
+.services {
+  max-width: 1600px;
+  min-height: 600px;
+  margin: 0 auto;
+  padding-top: 200px;
+  text-align: center;
+  background-color: #2f303a;
+}
+
+.title {
+  margin: 0 auto 30px;
+  max-width: 696px;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  letter-spacing: 0.06em;
+  color: #ffffff;
+}
+
+.section-button {
+  cursor: pointer;
+  min-width: 200px;
+  height: 50px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.06em;
+  color: #ffffff;
+  background-color: #2196f3;
+}
+
+.text {
+}
