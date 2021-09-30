@@ -49,11 +49,13 @@ header {
 }
 
 .top-line {
-  align-items: center;
+  font-family: Roboto;
+  font-style: normal;
   font-weight: 500;
   font-size: 14px;
   line-height: 16px;
   letter-spacing: 0.02em;
+  color: #212121;
 }
 
 .logo {
@@ -75,15 +77,29 @@ header {
   align-items: center;
 }
 
-.list {
+.menu-list {
   align-items: center;
 }
 
-.item {
+.menu-item {
   margin-left: 50px;
 }
 
-.link a {
+.link-contacts {
+
+}
+
+.item-contacts {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+  color: #757575;
+}
+
+.menu-item {
   color: black;
   font-weight: 500;
   font-size: 14px;
@@ -92,15 +108,24 @@ header {
 }
 
 .contacts {
-  margin-left: 250px;
+  
 }
 
-.item:hover,
-.item:focus {
+.item-contacts:hover,
+.item-contacts:focus {
   color: #2196f3;
 }
 
+.menu-item:hover,
+.menu-item:focus {
+  color: #2196f3;
+}
+
+.active {
+  color: #2196f3;
+}
 /*--------------------------HEADER--------------------------*/
+
 /*--------------------------MAIN--------------------------*/
 main {
   margin-bottom: 90px;
@@ -108,13 +133,10 @@ main {
 /*-----БАНЕР------*/
 .popup {
   background-color: #2f303a;
-  margin-bottom: 90px;
   align-items: center;
 }
 
 .title-effective-solutions {
-  padding-top: 200px;
-  margin-top: 0px;
   font-family: Roboto;
   font-style: normal;
   font-weight: 900;
@@ -128,8 +150,7 @@ main {
 .button-services {
   width: 200px;
   height: 50px;
-  margin-bottom: 200px;
-  background-color: #757575;
+  background-color: #2196f3;
 
   font-family: Roboto;
   font-style: normal;
@@ -187,7 +208,6 @@ main {
 
 .title-work {
   margin-top: 0px;
-
   font-family: Roboto;
   font-style: normal;
   font-weight: bold;
@@ -227,10 +247,9 @@ main {
 .title-item-team {
   font-family: Roboto;
   font-style: normal;
-  font-weight: bold;
-  font-size: 18px;
-  line-height: 36px;
-  letter-spacing: 0.06em;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
   color: #212121;
 }
 
