@@ -5,6 +5,8 @@ body {
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
+  width: 1400px;
+  margin: 0 auto;
 }
 
 /* img робим блочним */
@@ -47,7 +49,6 @@ header {
 }
 
 .top-line {
-  display: flex;
   align-items: center;
   font-weight: 500;
   font-size: 14px;
@@ -56,7 +57,6 @@ header {
 }
 
 .logo {
-  display: inline-block;
   font-family: Raleway;
   font-style: normal;
   font-weight: bold;
@@ -72,12 +72,10 @@ header {
 }
 
 .menu-nav {
-  display: flex;
   align-items: center;
 }
 
 .list {
-  display: flex;
   align-items: center;
 }
 
@@ -101,43 +99,224 @@ header {
 .item:focus {
   color: #2196f3;
 }
+
 /*--------------------------HEADER--------------------------*/
 /*--------------------------MAIN--------------------------*/
 main {
+  margin-bottom: 90px;
 }
-
-.services {
-  max-width: 1600px;
-  min-height: 600px;
-  margin: 0 auto;
-  padding-top: 200px;
-  text-align: center;
+/*-----БАНЕР------*/
+.popup {
   background-color: #2f303a;
+  margin-bottom: 90px;
+  align-items: center;
 }
 
-.title {
-  margin: 0 auto 30px;
-  max-width: 696px;
+.title-effective-solutions {
+  padding-top: 200px;
+  margin-top: 0px;
+  font-family: Roboto;
+  font-style: normal;
   font-weight: 900;
   font-size: 44px;
-  line-height: 1.36;
+  line-height: 60px;
+  text-align: center;
   letter-spacing: 0.06em;
-  color: #ffffff;
+  text-transform: uppercase;
 }
 
-.section-button {
-  cursor: pointer;
-  min-width: 200px;
+.button-services {
+  width: 200px;
   height: 50px;
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-  border-radius: 4px;
-  font-weight: 700;
+  margin-bottom: 200px;
+  background-color: #757575;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
   font-size: 16px;
-  line-height: 1.87;
+  line-height: 30px;
+  align-items: center;
+  text-align: center;
   letter-spacing: 0.06em;
   color: #ffffff;
+  border-radius: 10px;
+}
+
+.button-services:hover,
+.button-services:focus {
   background-color: #2196f3;
 }
 
-.text {
+/* ---ОСОБЛИВОСТІ---*/
+.section {
+  margin-bottom: 90px;
+}
+
+.list-features {
+}
+
+.item-features {
+}
+
+.title-features {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #212121;
+}
+
+.title-text-features {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  color: #757575;
+}
+/*---ЧИМ МИ ЗАЙМАЄМСЯ---*/
+
+.section-work {
+  margin-bottom: 180px;
+}
+
+.title-work {
+  margin-top: 0px;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 42px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #212121;
+}
+
+.list-work {
+}
+
+.item-work {
+}
+
+/*---НАША КОМАНДА---*/
+.section-team {
+}
+.title-team {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 42px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #212121;
+}
+
+.list-team {
+}
+
+.item-team {
+}
+
+.title-item-team {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 36px;
+  letter-spacing: 0.06em;
+  color: #212121;
+}
+
+.text-team {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 30px;
+  letter-spacing: 0.03em;
+  color: #757575;
+}
+
+/* ----------------------FOOTER-------------------*/
+.section-footer {
+  background-color: #2f303a;
+}
+
+.contacts-footer {
+}
+
+.list-footer {
+}
+
+.item-footer {
+}
+
+.text-footer {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  color: #ffffff;
+}
+/*-------------------------------------------------*/
+/*-------------------------------------------------*/
+/*-------------------------------------------------*/
+/* -------------------PORTFOLIO--------------------*/
+.filters-list-button {
+}
+
+.button {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #212121;
+  background-color: #f5f4fa;
+  border-color: #f5f4fa;
+  border-style: none;
+}
+
+.button:hover,
+.button:focus {
+  background-color: #2196f3;
+}
+
+.list-portfolio {
+  width: 1170px;
+  margin: 0 auto;
+}
+
+.item-portfolio {
+}
+
+.title-portfolio {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 36px;
+  letter-spacing: 0.06em;
+  color: #212121;
+}
+
+.text-portfolio {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 30px;
+  letter-spacing: 0.03em;
+  color: #757575;
 }
